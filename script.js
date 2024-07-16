@@ -1,6 +1,6 @@
 const apiKey = 'houQLaJM37MuiNSbvxxZSh5ra7f3gDylfSAYkvXB';
 
-        // Function to fetch asteroid data by ID
+      
         function searchAsteroid() {
             const asteroidId = document.getElementById('asteroidId').value.trim();
 
