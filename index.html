@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO Feed - Asteroids</title>
+   <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>NEO Feed - Asteroids</h1>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <input type="text" id="asteroidId" placeholder="Enter Asteroid ID">
+        <button onclick="searchAsteroid()">Search</button>
+    </div>
+
+    <!-- Asteroid Data Table -->
+    <div id="asteroids">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Approach Date</th>
+                    <th>Relative Velocity (km/h)</th>
+                    <th>Miss Distance (km)</th>
+                </tr>
+            </thead>
+            <tbody id="asteroidData">
+            </tbody>
+        </table>
+    </div>
+<script src="script.js"></script>
+   
+</body>
+</html>
